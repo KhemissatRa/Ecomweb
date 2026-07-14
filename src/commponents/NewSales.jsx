@@ -47,14 +47,14 @@ export default function NewSales() {
                 {item.title}
               </h2>
               <div className='flex flex-col items-center justify-between'>
-                <span className='text-2xl font-black text-yellow-400 tracking-tight'>
-                  {item.price}$
+                <span className='text-xl font-black text-yellow-400 tracking-tight'>
+                  {item.price}dzd
                 </span>
                 <Link
                   to={`/Details/${item._id}`}
                   className='bg-yellow-400 hover:bg-yellow-300 text-slate-900 text-xs font-bold tracking-widest uppercase px-4 py-2 rounded-lg transition-colors duration-200'
                 >
-                  Buy Now
+اشتري الان
                 </Link>
               </div>
             </div>

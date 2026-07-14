@@ -9,9 +9,10 @@ import Footer from './pages/footer'
 export default function App() {
 
   return (
-  <Router >
+<div className='max-w-full h-full'>
+<Router >
 <Navbar/>
-    <Routes>
+    <Routes >
       <Route path="/" element={<Home/>}/>
       <Route path="/Details/:id" element={<ProductDetails/>}/>            <Route path="/card" element={<ShopingCard/>}/>
       <Route path="/About" element={<About/>}/>
@@ -21,7 +22,7 @@ export default function App() {
           </Routes>
           <Footer/>
   </Router>
-  
+  </div>
   )
 }
 

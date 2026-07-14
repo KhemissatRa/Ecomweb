@@ -72,7 +72,7 @@ export default function ProductList() {
                             </div>
                         </div>
                         <Link to={`/Details/${item._id}`} className='  bg-gray-800 text-center w-28 text-white p p-2 rounded-lg shadow-md hover:shadow-lg transition-all duration-300'>
-                            Buy Now!
+                            اشتري الآن!
                         </Link>
                     </div>
                 ))}

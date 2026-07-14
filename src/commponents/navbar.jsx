@@ -21,8 +21,8 @@ export default function Nav() {
       <div className='container mx-auto flex justify-between items-center p-4'>
         <div className="flex justify-between items-center space-x-4">
           <h1 className='text-3xl font-extrabold tracking-wide'>Dz<span className='text-yellow-400'>Shope</span></h1>
-          <Link to="/" className='hover:text-teal-300 transition duration-300 text-lg font-semibold'>Home</Link>
-          <Link to="/About" className='hover:text-teal-300 transition duration-300 text-lg font-semibold'>About</Link>
+          <Link to="/" className='hover:text-teal-300 transition duration-300 text-lg font-semibold'>Accueil</Link>
+          <Link to="/About" className='hover:text-teal-300 transition duration-300 text-lg font-semibold'> propos</Link>
 
           <Link to="/card" className='hover:text-teal-300 transition duration-300 text-lg font-semibold'>
 
@@ -38,7 +38,7 @@ export default function Nav() {
           <input
             className='border-2 border-gray-300 text-gray-800 focus:outline-none placeholder-gray-400 rounded-full pl-4 pr-10 py-2 transition duration-300 hover:border-teal-500'
             type="text"
-            placeholder='Search...'
+            placeholder='Rechercher...'
             name='find'
             onChange={(e) => setFind(e.target.value)}
           />
@@ -46,7 +46,7 @@ export default function Nav() {
             type="button"
             onClick={handleSearch}
             className='absolute right-0 top-0 mt-1 mr-2 bg-teal-500 text-white rounded-full py-2 px-4 hover:bg-teal-600 transition duration-300 flex items-center'
-            aria-label='Search'
+            aria-label='Rechercher'
           >
             <FontAwesomeIcon  icon={faSearchengin} />
           </button>
